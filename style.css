@@ -1,0 +1,108 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+.searchContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+#userInput {
+width: 40%;
+height: 40px;
+border-bottom-left-radius: 10px;
+border-top-left-radius: 10px;
+border: 1px solid black;
+font-size: 18px;
+background-color: rgb(192, 192, 192);
+border: 0;
+}
+#submitBtn {
+height: 40px;
+border-bottom-right-radius: 10px;
+border-top-right-radius: 10px;
+border: 1px solid black;
+font-size: 18px;
+width: 80px;
+cursor: pointer;
+border: 0;
+color: white;
+background-color: black;
+}
+.weatherBody {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.weatherHeader {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    align-items: center;
+}
+#weatherImg {
+    width: 150px;
+}
+.weatherTemps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    margin: 50px;
+}
+.weatherTemps * {
+    padding: 20px;
+}
+.weatherDataList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+.weatherDataEl {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.weatherDataList li {
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    
+}
+.weatherDataList .svgContainer {
+    padding-right: 5px;
+}
+.dailyWeather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.dailyWeather ul {
+    width: 40%;
+}
+.dailyWeather ul li {
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: aliceblue;
+margin: 20px;
+border-radius: 10px;
+
+}
+.dailyWeather ul li img {
+    width: 50px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
